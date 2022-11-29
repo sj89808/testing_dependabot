@@ -10,4 +10,6 @@ updates:
     directory: "/"
     schedule:
       # Check for updates to GitHub Actions every weekday
-      interval: "live"
+      interval: "daily"
+      time: "16:59"
+      timezone: "IST"
