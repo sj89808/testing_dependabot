@@ -6,8 +6,8 @@
 version: 1
 updates:
 
-  - package-ecosystem: "github-actions"
+  - package-ecosystem: ""pip""
     directory: "/"
     schedule:
       # Check for updates to GitHub Actions every weekday
-      interval: "daily"
+      interval: "live"
