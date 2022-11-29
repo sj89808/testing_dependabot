@@ -11,19 +11,19 @@ updates:
     schedule:
       # Check for updates to GitHub Actions every weekday
       interval: "daily"
-      time: "05:14"
+      time: "17:16"
       timezone: "Asia/Tokyo"
 
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
       interval: "daily"
-      time: "05:14"
+      time: "17:16"
       timezone: "Asia/Kolkata"
 
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
       interval: "daily"
-      time: "05:14"
+      time: "17:16"
       timezone: "Asia/Kolkata"
