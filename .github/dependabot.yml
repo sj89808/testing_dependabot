@@ -13,3 +13,13 @@ updates:
       interval: "daily"
       time: "5:01"
       timezone: "IST"
+
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
